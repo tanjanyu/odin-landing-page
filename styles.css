@@ -21,7 +21,7 @@ div {
 }
 
 /* flex auto */
-.logo, .header, .header-links, a, {
+.logo, .header, .header-links, a, .learn-more {
     flex: 0 0 auto;
 }
 
@@ -35,8 +35,32 @@ div {
     margin-left: auto;
 }
 
-a {
+a, .intro-description {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.intro-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    flex: 0 0 auto;
+}
+
+.intro, .intro-left {
+    display: flex;
+}
+
+.intro-left {
+    flex-direction: column;
+}
+
+.learn-more {
+    align-self: flex-start;
 }
