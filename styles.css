@@ -35,7 +35,7 @@ div {
     margin-left: auto;
 }
 
-a, .intro-description {
+a, .intro-description, .learn-more {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -63,4 +63,12 @@ img {
 
 .learn-more {
     align-self: flex-start;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    background-color: #3882F6;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
