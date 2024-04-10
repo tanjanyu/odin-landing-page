@@ -47,10 +47,16 @@ a, .intro-description, .learn-more {
     font-size: 18px;
 }
 
+a {
+    margin-left: 10px;
+}
+
 .intro-heading {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    flex: 0 0 auto;
+    width: 400px;
 }
 
 .intro-img {
@@ -77,11 +83,18 @@ a, .intro-description, .learn-more {
     padding: 7px;
     padding-right: 30px;
     padding-left: 30px;
+    margin-top: auto;
 }
 
 .intro {
     margin-top: 110px;
     margin-bottom: 110px;
+    justify-content: space-between;
+}
+
+.intro-description {
+    flex: 0 0 auto;
+    width: 500px;
 }
 
 /* Section TWO */
@@ -109,6 +122,7 @@ a, .intro-description, .learn-more {
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 125px;
 }
 
 .infograph {
@@ -127,6 +141,8 @@ a, .intro-description, .learn-more {
 #cont-txt {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .info-txt {
