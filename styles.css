@@ -122,3 +122,30 @@ a, .intro-description, .learn-more {
     font-size: 18px;
     color: #1F2937;
 }
+
+/* Section THREE */
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.full-quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    align-self: center;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+
