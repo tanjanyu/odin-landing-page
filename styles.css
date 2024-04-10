@@ -8,7 +8,7 @@ div {
 }
 
 /* Will need to add padding to the left and right for the sections later on */
-/* Section 1 */
+/* Section ONE */
 .section-one {
     background-color: #1F2937;
     display: flex;
@@ -43,11 +43,11 @@ a, .intro-description, .learn-more {
 
 .intro-heading {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
-img {
+.intro-img {
     width: 400px;
     height: auto;
     flex: 0 0 auto;
@@ -71,4 +71,54 @@ img {
     padding: 10px;
     padding-right: 25px;
     padding-left: 25px;
+}
+
+/* Section TWO */
+
+/* .section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.title, .info-img, .infograph, .info-txt {
+    flex: 0 0 auto;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infographic {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infograph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-img {
+    width: 155px;
+    height: 155px;
+    border-radius: 10px;
+    border: 3px solid #3882F6
+}
+
+#cont-txt {
+    display: flex;
+    justify-content: center;
+}
+
+.info-txt {
+    font-size: 18px;
+    color: #1F2937;
 }
